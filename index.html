@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  
+</head>
+<body class="max-w-[1000px] mx-auto">
+ <section>
+   <header class="flex justify-between">
+    <img src="./header.jpg" alt="" class="h-24">
+    <ul class="flex mt-10 font-bold ">
+      <a href=""><li class="px-8">HOME</li></a>
+      <a href=""><li class="px-8">じぃずろぐについて</li></a>
+    </ul>
+
+  </header>
+  <nav>
+     <hr>
+     <a href=""><p class="py-4 text-xs text-black">じぃずログ > 東京 > 東京 教育 > 原宿 渋谷 教育 > 原宿 世界を変える > ジーズアカデミー東京</p></a>
+
+     <hr>
+    
+  </nav>
+ 
+
+
+<main>
+  <section class="mt-8">
+    <h4 class="inline-block text-white font-bold bg-yellow-500 rounded border border-yellow-600 px-4 py-1">公式</h4>
+    <p class="text-xs my-2 text-yellow-500">世界を変える人材を送り出す</p>
+    <h2 class="font-bold text-3xl">ジーズアカデミー東京</h2>
+    <hr class="my-4">
+    <nav>
+      <ul class=" flex">
+        <li class="mr-2"><span class="font-bold">最寄駅：</span>原宿駅</li>
+        <li><span class="font-bold">ジャンル：</span>教育-IT</li>
+      </ul>
+      <p><span class="font-bold">予算：</span>¥300,000-</p>
+    </nav>
+ 
+
+  </section>
+  <section class="flex justify-center mt-8">
+   <div class="border py-3 px-14 font-bold">
+    トップ
+   </div>
+   <div class="border py-3 px-16 font-bold">
+    座席
+   </div>
+   <div class="border py-3 px-6 font-bold">
+    メニュー・コース
+   </div>
+   <div class="border py-3 px-16 font-bold">
+    写真
+   </div>
+   <div class="border py-3 px-14 font-bold bg-stone-500 text-white">
+    口コミ
+   </div>
+   <div class="border py-3 px-16 font-bold">
+    地図
+   </div>
+
+   
+           
+
+  </section>
+
+ <hr class="h-1 bg-black border-none " />
+
+<section class="flex justify-center items-center w-full">
+  <div class="w-1/2 text-center border py-2 font-bold hover:bg-stone-100">
+    口コミ
+  </div>
+  <div class="w-1/2 text-center border py-2 font-bold hover:bg-stone-100">
+    座席
+  </div>
+</section>
+
+<section class="flex justify-between my-4">
+  <section>
+    <section class="flex">
+      <input type="text" placeholder="ユーザー名" class="mb-2 border border-black rounded bg-yellow-100" id="key">
+      <div id="star-rating">
+        <span class="star" data-value="1">★</span>
+        <span class="star" data-value="2">★</span>
+        <span class="star" data-value="3">★</span>
+        <span class="star" data-value="4">★</span>
+        <span class="star" data-value="5">★</span>
+      </div>
+
+    </section>
+
+    
+<textarea id="memo" placeholder="レビュー内容" class="border border-black rounded bg-yellow-100"></textarea>
+<ul class="flex my-2">
+   <li id="save" class="cursor-pointer font-bold text-white bg-yellow-300 inline-block px-1 shadow hover:scale-105">
+  レビュー投稿する
+</li>
+ <li id="clear" class="cursor-pointer font-bold text-white bg-yellow-300 inline-block px-1 shadow mx-1 hover:scale-105">リセット</li>
+</ul>
+
+
+<div id="list">
+  <!-- ここに追加データが挿入される -->
+</div>
+
+
+  </section>
+  <img src="./dev.png" alt="" class="h-80">
+
+</section>
+
+
+</main>
+
+  
+ </section>
+ 
+
+
+<script src="./js.js"></script>
+
+</body>
+
+  
+
+
+</html>
